@@ -1,7 +1,17 @@
 .App {
   text-align: center;
 }
-
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+form > *{
+  height: 40px;
+  width: 200px;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
